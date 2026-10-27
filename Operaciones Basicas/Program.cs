@@ -1,25 +1,31 @@
 ﻿/*
  * Creado por SharpDevelop.
- * Usuario: CC2_PC01
+ * Usuario: CC1_PC23
  * Fecha: 27/10/2026
- * Hora: 07:46 a. m.
+ * Hora: 12:00 p. m.
  * 
  * Para cambiar esta plantilla use Herramientas | Opciones | Codificación | Editar Encabezados Estándar
  */
 using System;
+using System.Windows.Forms;
 
 namespace Operaciones_Basicas
 {
-	class Program
+	/// <summary>
+	/// Class with program entry point.
+	/// </summary>
+	internal sealed class Program
 	{
-		public static void Main(string[] args)
+		/// <summary>
+		/// Program entry point.
+		/// </summary>
+		[STAThread]
+		private static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
-			
-			// TODO: Implement Functionality Here
-			
-			Console.Write("Press any key to continue . . . ");
-			Console.ReadKey(true);
+			Application.EnableVisualStyles();
+			Application.SetCompatibleTextRenderingDefault(false);
+			Application.Run(new MainForm());
 		}
+		
 	}
 }

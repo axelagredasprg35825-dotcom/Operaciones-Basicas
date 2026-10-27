@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 # SharpDevelop 4.4
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operaciones Basicas", "Operaciones Basicas.csproj", "{A1FEA77C-2B07-4AD0-A906-28A6D023C788}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operaciones Basicas", "Operaciones Basicas.csproj", "{E7DEABE4-8AB2-4814-8182-D5A7E8EB34A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,9 +10,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A1FEA77C-2B07-4AD0-A906-28A6D023C788}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A1FEA77C-2B07-4AD0-A906-28A6D023C788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A1FEA77C-2B07-4AD0-A906-28A6D023C788}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A1FEA77C-2B07-4AD0-A906-28A6D023C788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7DEABE4-8AB2-4814-8182-D5A7E8EB34A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7DEABE4-8AB2-4814-8182-D5A7E8EB34A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7DEABE4-8AB2-4814-8182-D5A7E8EB34A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7DEABE4-8AB2-4814-8182-D5A7E8EB34A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 EndGlobal
