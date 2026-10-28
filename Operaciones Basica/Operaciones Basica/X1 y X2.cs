@@ -57,5 +57,15 @@ namespace Operaciones_Basica
 		{
 			
 		}
+		
+		void Label3Click(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void X1_y_X2Load(object sender, EventArgs e)
+		{
+			
+		}
 	}
 }

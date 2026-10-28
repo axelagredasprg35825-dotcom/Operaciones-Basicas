@@ -36,6 +36,7 @@ namespace Operaciones_Basica
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			this.btnSumar = new System.Windows.Forms.Button();
 			this.btnResta = new System.Windows.Forms.Button();
 			this.btnMultiplicar = new System.Windows.Forms.Button();
@@ -132,6 +133,8 @@ namespace Operaciones_Basica
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(282, 200);
 			this.Controls.Add(this.btnCalcular);
 			this.Controls.Add(this.lblRespuesta);

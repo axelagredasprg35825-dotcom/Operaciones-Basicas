@@ -36,6 +36,7 @@ namespace Operaciones_Basica
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(X1_y_X2));
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
@@ -49,28 +50,35 @@ namespace Operaciones_Basica
 			// 
 			// label1
 			// 
+			this.label1.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.ForeColor = System.Drawing.SystemColors.InfoText;
 			this.label1.Location = new System.Drawing.Point(26, 37);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(100, 23);
+			this.label1.Size = new System.Drawing.Size(100, 22);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Valor de A:";
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(26, 77);
+			this.label2.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.ForeColor = System.Drawing.SystemColors.InfoText;
+			this.label2.Location = new System.Drawing.Point(26, 76);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(100, 23);
+			this.label2.Size = new System.Drawing.Size(100, 20);
 			this.label2.TabIndex = 1;
 			this.label2.Text = "Valor de B:";
 			this.label2.Click += new System.EventHandler(this.Label2Click);
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(26, 116);
+			this.label3.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label3.ForeColor = System.Drawing.SystemColors.InfoText;
+			this.label3.Location = new System.Drawing.Point(26, 115);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(100, 23);
+			this.label3.Size = new System.Drawing.Size(100, 21);
 			this.label3.TabIndex = 2;
 			this.label3.Text = "Valor de C:";
+			this.label3.Click += new System.EventHandler(this.Label3Click);
 			// 
 			// txtA
 			// 
@@ -81,7 +89,7 @@ namespace Operaciones_Basica
 			// 
 			// txtC
 			// 
-			this.txtC.Location = new System.Drawing.Point(112, 113);
+			this.txtC.Location = new System.Drawing.Point(112, 115);
 			this.txtC.Name = "txtC";
 			this.txtC.Size = new System.Drawing.Size(139, 22);
 			this.txtC.TabIndex = 4;
@@ -95,17 +103,18 @@ namespace Operaciones_Basica
 			// 
 			// lblRespuesta
 			// 
-			this.lblRespuesta.Location = new System.Drawing.Point(26, 154);
+			this.lblRespuesta.Location = new System.Drawing.Point(26, 155);
 			this.lblRespuesta.Name = "lblRespuesta";
-			this.lblRespuesta.Size = new System.Drawing.Size(225, 67);
+			this.lblRespuesta.Size = new System.Drawing.Size(225, 42);
 			this.lblRespuesta.TabIndex = 6;
 			this.lblRespuesta.Click += new System.EventHandler(this.LblRespuestaClick);
 			// 
 			// btnRegresar
 			// 
-			this.btnRegresar.Location = new System.Drawing.Point(26, 209);
+			this.btnRegresar.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnRegresar.Location = new System.Drawing.Point(26, 199);
 			this.btnRegresar.Name = "btnRegresar";
-			this.btnRegresar.Size = new System.Drawing.Size(82, 29);
+			this.btnRegresar.Size = new System.Drawing.Size(85, 39);
 			this.btnRegresar.TabIndex = 7;
 			this.btnRegresar.Text = "Regresar";
 			this.btnRegresar.UseVisualStyleBackColor = true;
@@ -113,9 +122,10 @@ namespace Operaciones_Basica
 			// 
 			// btnCalcular
 			// 
-			this.btnCalcular.Location = new System.Drawing.Point(176, 209);
+			this.btnCalcular.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnCalcular.Location = new System.Drawing.Point(176, 199);
 			this.btnCalcular.Name = "btnCalcular";
-			this.btnCalcular.Size = new System.Drawing.Size(75, 23);
+			this.btnCalcular.Size = new System.Drawing.Size(78, 39);
 			this.btnCalcular.TabIndex = 8;
 			this.btnCalcular.Text = "Calcular";
 			this.btnCalcular.UseVisualStyleBackColor = true;
@@ -125,6 +135,8 @@ namespace Operaciones_Basica
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(282, 253);
 			this.Controls.Add(this.btnCalcular);
 			this.Controls.Add(this.btnRegresar);
@@ -137,6 +149,7 @@ namespace Operaciones_Basica
 			this.Controls.Add(this.label1);
 			this.Name = "X1_y_X2";
 			this.Text = "X1_y_X2";
+			this.Load += new System.EventHandler(this.X1_y_X2Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
